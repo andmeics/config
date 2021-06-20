@@ -24,8 +24,6 @@ del/f/q %userprofile%\cookies\*.*
 
 del/f/q %userprofile%\recent\*.*
 
-rd/s/q \“%userprofile%\Local S.ttings\Temp.rary internet Files\”
-
 cls & echo 系统垃圾清除完成:)
 
 echo. & pause
