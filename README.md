@@ -1,2 +1,2 @@
-# python-example
-python shell code example
+# shell-example
+shell code example
