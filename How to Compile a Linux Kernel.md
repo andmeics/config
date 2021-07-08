@@ -24,7 +24,8 @@ Downloading the kernel
 The first thing to do is download the kernel source file. This can be done by finding the URL of the kernel you want to download (from Kernel.org). Once you have the URL, download the source file with the following command (I’ll demonstrate with kernel 4.17 RC2):
 
 ```bash
-wget https://git.kernel.org/torvalds/t/linux-4.17-rc2.tar.gz
+cd /usr/src/linux
+git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 ```
 
 While that file is downloading, there are a few bits to take care of.
@@ -37,15 +38,6 @@ sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-de
 ```
 
 Do note: You will need at least 12GB of free space on your local drive to get through the kernel compilation process. So make sure you have enough space.
-
-Extracting the source
-From within the directory housing our newly downloaded kernel, extract the kernel source with the command:
-
-```bash
-tar xvzf linux-4.17-rc2.tar.gz
-```
-
-Change into the newly created directory with the command cd linux-4.17-rc2.
 
 Configuring the kernel
 Before we actually compile the kernel, we must first configure which modules to include. There is actually a really easy way to do this. With a single command, you can copy the current kernel’s config file and then use the tried and true menuconfig command to make any necessary changes. To do this, issue the command:
@@ -69,7 +61,7 @@ Once again, this command will take some time, so either sit back and watch the o
 Now we install the kernel with the command:
 
 ```bash
-sudo make install
+sudo make -j4 install
 ```
 Again, another command that’s going to take a significant amount of time. In fact, the make install command will take even longer than the make modules_install command. Go have lunch, configure a router, install Linux on a few servers, or take a nap.
 
