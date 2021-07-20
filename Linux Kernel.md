@@ -1,6 +1,5 @@
 # How to Compile a Linux Kernel
 
-By Jack Wallen -April 27, 201872207
 Once upon a time the idea of upgrading the Linux kernel sent fear through the hearts of many a user. Back then, the process of upgrading the kernel involved a lot of steps and even more time. Now, installing a new kernel can be easily handled with package managers like apt. With the addition of certain repositories, you can even easily install experimental or specific kernels (such as real-time kernels for audio production) without breaking a sweat.
 
 Considering how easy it is to upgrade your kernel, why would you bother compiling one yourself? Here are a few possible reasons:
@@ -30,7 +29,7 @@ git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 
 While that file is downloading, there are a few bits to take care of.
 
-Installing requirements
+## Installing requirements
 In order to compile the kernel, we’ll need to first install a few requirements. This can be done with a single command:
 
 ```bash
@@ -39,7 +38,7 @@ sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-de
 
 Do note: You will need at least 12GB of free space on your local drive to get through the kernel compilation process. So make sure you have enough space.
 
-Configuring the kernel
+## Configuring the kernel
 Before we actually compile the kernel, we must first configure which modules to include. There is actually a really easy way to do this. With a single command, you can copy the current kernel’s config file and then use the tried and true menuconfig command to make any necessary changes. To do this, issue the command:
 
 ```bash
@@ -55,13 +54,16 @@ Now it’s time to actually compile the kernel. The first step is to compile usi
 
 After answering the litany of questions, you can then install the modules you’ve enabled with the command:
 
+```bash
 make modules_install
+```
+
 Once again, this command will take some time, so either sit back and watch the output, or go do something else (as it will not require your input). Chances are, you’ll want to undertake another task (unless you really enjoy watching output fly by in a terminal).
 
 Now we install the kernel with the command:
 
 ```bash
-sudo make -j4 install
+sudo make -j 4 install
 ```
 Again, another command that’s going to take a significant amount of time. In fact, the make install command will take even longer than the make modules_install command. Go have lunch, configure a router, install Linux on a few servers, or take a nap.
 
