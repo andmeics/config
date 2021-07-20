@@ -49,7 +49,7 @@ Now that you have a configuration file, issue the command make menuconfig. This 
 
 It is quite possible you might disable a critical portion of the kernel, so step through menuconfig with care. If you’re not sure about an option, leave it alone. Or, better yet, stick with the configuration we just copied from the running kernel (as we know it works). Once you’ve gone through the entire list (it’s quite long), you’re ready to compile!
 
-Compiling and installing
+## Compiling and installing
 Now it’s time to actually compile the kernel. The first step is to compile using the make command. So issue make and then answer the necessary questions (Figure 2). The questions asked will be determined by what kernel you’re upgrading from and what kernel you’re upgrading to. Trust me when I say there’s a ton of questions to answer, so give yourself plenty of time here.
 
 After answering the litany of questions, you can then install the modules you’ve enabled with the command:
@@ -67,7 +67,7 @@ sudo make -j 4 install
 ```
 Again, another command that’s going to take a significant amount of time. In fact, the make install command will take even longer than the make modules_install command. Go have lunch, configure a router, install Linux on a few servers, or take a nap.
 
-Enable the kernel for boot
+## Enable the kernel for boot
 Once the make install command completes, it’s time to enable the kernel for boot. To do this, issue the command:
 
 ```bash
@@ -81,7 +81,7 @@ sudo update-grub
 ```
 You should now be able to restart your system and select the newly installed kernel.
 
-Congratulations!
+## Congratulations!
 You’ve compiled a Linux kernel! It’s a process that may take some time; but, in the end, you’ll have a custom kernel for your Linux distribution, as well as an important skill that many Linux admins tend to overlook.
 
 Learn more about Linux through the free “Introduction to Linux” course from The Linux Foundation and edX.
