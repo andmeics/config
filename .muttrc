@@ -1,0 +1,35 @@
+# .muttrc
+# ================  IMAP ====================
+set imap_user = 'email address'
+set imap_pass = 'yourpassword'
+set spoolfile = imaps://imap.gmail.com/INBOX
+set folder = imaps://imap.gmail.com/
+set record="imaps://imap.gmail.com/[Gmail]/Sent Mail"
+set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
+set mbox="imaps://imap.gmail.com/[Gmail]/All Mail"
+
+# ================  SMTP  ====================
+set smtp_url = "smtp://emailaddress@smtp.gmail.com:465/"
+set imap_pass = 'yourpassword'
+set ssl_force_tls = yes # Require encrypted connection
+set ssl_starttls = yes # Require encrypted connection
+
+# ================  Composition  ====================
+set editor = `echo \$EDITOR`
+set edit_headers = yes  # See the headers when editing
+set charset = UTF-8     # value of $LANG; also fallback for send_charset
+# Sender, email address, and sign-off line must match
+unset use_domain        # because joe@localhost is just embarrassing
+set realname = "realname"
+set from = "email address"
+set use_from = yes
+
+## GENERIC
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+# Move read messages from your spool mailbox to your $mbox mailbox
+set move = no
+# Reduce polling frequency to a sane level
+set mail_check=60
+source ~/.gpg.rc
