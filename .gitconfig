@@ -1,0 +1,31 @@
+[user]
+	name = real name
+	email = email address
+	signingkey = key ID
+[sendemail]
+	from = real name <email address>
+	smtpserver = smtp.gmail.com
+	smtpuser = email address
+	smtppass = yourpassword
+	smtpencryption = tls
+	chaimreplyto = false
+	smtpserverport = 465
+	confirm = auto
+[tag]
+	forceSignAnnotated = true
+[core]
+        abbrev = 12
+	compression = 9
+[pretty]
+        fixes = Fixes: %h (\"%s\")
+[commit]
+	gpgsign = true
+[http]
+	postBuffer = 2048M
+	maxRequestBuffer = 1024M
+[ssh]
+	postBuffer = 2048M
+	maxRequestBuffer = 1024M
+[pack]
+	windowMemory = 256M
+	packSizeLimit = 256M
