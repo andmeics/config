@@ -33,7 +33,7 @@ While that file is downloading, there are a few bits to take care of.
 In order to compile the kernel, we’ll need to first install a few requirements. This can be done with a single command:
 
 ```bash
-sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison gdb gcc git-email gnupg nftables make mutt tcpdump tor vim gawk coccinelle sparse clang-format curl ethtool lsof perl python3 wget
+sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison gdb clang lldb git-email gnupg nftables mutt tcpdump tor vim gawk coccinelle sparse clang-format curl ethtool lsof perl python3 wget
 ```
 
 Do note: You will need at least 12GB of free space on your local drive to get through the kernel compilation process. So make sure you have enough space.
