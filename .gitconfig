@@ -29,3 +29,5 @@
 [pack]
 	windowMemory = 256M
 	packSizeLimit = 256M
+[pull]
+	rebase = false
