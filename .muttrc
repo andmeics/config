@@ -9,10 +9,9 @@ set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
 set mbox="imaps://imap.gmail.com/[Gmail]/All Mail"
 
 # ================  SMTP  ====================
-set smtp_url = "smtp://emailaddress@smtp.gmail.com:465/"
+set smtp_url = "smtp://emailaddress@smtp.gmail.com:587/"
 set imap_pass = 'yourpassword'
 set ssl_force_tls = yes # Require encrypted connection
-set ssl_starttls = yes # Require encrypted connection
 
 # ================  Composition  ====================
 set editor = `echo \$EDITOR`
