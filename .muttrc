@@ -22,8 +22,7 @@ unset use_domain        # because joe@localhost is just embarrassing
 set realname = "realname"
 set from = "email address"
 set use_from = yes
-
-## GENERIC
+set envelope_from= yes
 set header_cache=~/.mutt/cache/headers
 set message_cachedir=~/.mutt/cache/bodies
 set certificate_file=~/.mutt/certificates
