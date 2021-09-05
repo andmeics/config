@@ -26,7 +26,6 @@ set user_agent = no
 set envelope_from_address = "email address"
 set use_envelope_from = yes
 set hostname = "hostname"
-set message_id_format = "<%z@%f>"
 set header_cache = ~/.mutt/cache/headers
 set message_cachedir = ~/.mutt/cache/bodies
 set certificate_file = ~/.mutt/certificates
