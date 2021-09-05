@@ -9,7 +9,7 @@
 	smtppass = yourpassword
 	smtpencryption = tls
 	chaimreplyto = false
-	smtpserverport = 465
+	smtpserverport = 587
 	confirm = auto
 [tag]
 	forceSignAnnotated = true
