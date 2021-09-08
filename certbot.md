@@ -11,7 +11,6 @@ vim /etc/nginx/nginx.conf
 ```
 ...
         ssl_protocols TLSv1.2 TLSv1.3;
-        ssl_prefer_server_ciphers on;
         server_tokens off;
         server {
            listen 80 http2;
