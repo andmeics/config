@@ -10,6 +10,8 @@ vim /etc/nginx/nginx.conf
 
 ```
 ...
+        ssl_protocols TLSv1.2 TLSv1.3;
+        ssl_prefer_server_ciphers on;
         server_tokens off;
         server {
            listen 80 http2;
@@ -33,6 +35,9 @@ vim /etc/nginx/nginx.conf
            location = /.well-known/mta-sts.txt {
            default_type text/plain;
            return 200 "version: STSv1\r\nmode: testing\r\nmx: alt2.aspmx.l.google.com\r\nmx: aspmx.l.google.com\r\nmx: alt3.aspmx.l.google.com\r\nmx: alt4.aspmx.l.google.com\r\nmx: alt1.aspmx.l.google.com\r\nmax_age: 604800\r\n";
+           }
+           location / {
+           limit_except GET HEAD POST { deny all; }
            }
         }
 }
