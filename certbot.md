@@ -11,9 +11,13 @@ vim /etc/nginx/nginx.conf
 ```
 ...
         server {
-           server_name mta-sts.yourdomain.com;
            listen 80 http2;
+           server_name mta-sts.yourdomain.com;
+           rewrite ^(.*)$ https://${server_name}$1 permanent; 
+}
+        server {
            listen 443 ssl http2; # managed by Certbot
+           server_name mta-sts.yourdomain.com;
            ssl_certificate /etc/letsencrypt/live/mta-sts.yourdomain.com/fullchain.pem;
            ssl_certificate_key /etc/letsencrypt/live/mta-sts.yourdomain.com/privkey.pem;
            ssl_trusted_certificate /etc/letsencrypt/live/mta-sts.yourdomain.com/chain.pem;
