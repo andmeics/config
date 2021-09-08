@@ -14,7 +14,7 @@ vim /etc/nginx/nginx.conf
         server {
            listen 80 http2;
            server_name mta-sts.yourdomain.com;
-           rewrite ^(.*)$ https://${server_name}$1 permanent; 
+           rewrite ^ https://$server_name$request_uri? permanent; 
         }
         server {
            listen 443 ssl http2; # managed by Certbot
