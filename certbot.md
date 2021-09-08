@@ -12,7 +12,8 @@ vim /etc/nginx/nginx.conf
 ...
         server {
            server_name mta-sts.yourdomain.com;
-           listen 443 ssl; # managed by Certbot
+           listen 80 http2;
+           listen 443 ssl http2; # managed by Certbot
            ssl_certificate /etc/letsencrypt/live/mta-sts.yourdomain.com/fullchain.pem;
            ssl_certificate_key /etc/letsencrypt/live/mta-sts.yourdomain.com/privkey.pem;
            ssl_trusted_certificate /etc/letsencrypt/live/mta-sts.yourdomain.com/chain.pem;
