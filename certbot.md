@@ -10,6 +10,7 @@ vim /etc/nginx/nginx.conf
 
 ```
 ...
+        server_tokens off;
         server {
            listen 80 http2;
            server_name mta-sts.yourdomain.com;
