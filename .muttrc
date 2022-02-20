@@ -33,4 +33,4 @@ set certificate_file = ~/.mutt/certificates
 set move = no
 # Reduce polling frequency to a sane level
 set mail_check = 60
-source ~/.gpg.rc
+source ~/.mutt/gpg.rc
