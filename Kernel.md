@@ -23,7 +23,6 @@ Downloading the kernel
 The first thing to do is download the kernel source file. This can be done by finding the URL of the kernel you want to download (from Kernel.org). Once you have the URL, download the source file with the following command (I’ll demonstrate with kernel 4.17 RC2):
 
 ```bash
-cd /usr/src/linux
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 ```
 
