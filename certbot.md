@@ -13,12 +13,12 @@ vim /etc/nginx/nginx.conf
         ssl_protocols TLSv1.2 TLSv1.3;
         server_tokens off;
         server {
-           listen 80 http2;
+           listen 80;
            server_name mta-sts.yourdomain.com;
            return 301 https://mta-sts.yourdomain.com$request_uri; 
         }
         server {
-           listen 443 ssl http2; # managed by Certbot
+           listen 443 ssl; # managed by Certbot
            server_name mta-sts.yourdomain.com;
            ssl_certificate /etc/letsencrypt/live/mta-sts.yourdomain.com/fullchain.pem;
            ssl_certificate_key /etc/letsencrypt/live/mta-sts.yourdomain.com/privkey.pem;
