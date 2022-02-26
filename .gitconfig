@@ -23,6 +23,7 @@
 [http]
 	postBuffer = 2048M
 	maxRequestBuffer = 1024M
+	cookiesfile = ~/.gitcookies
 [ssh]
 	postBuffer = 2048M
 	maxRequestBuffer = 1024M
