@@ -23,7 +23,7 @@ set edit_headers = yes
 # value of $LANG; also fallback for send_charset
 set charset = UTF-8
 # Sender, email address, and sign-off line must match
-## because joe@localhost is just embarrassing
+# Because joe@localhost is just embarrassing
 unset use_domain
 set realname = "realname"
 set from = "email address"
