@@ -11,14 +11,20 @@ set mbox = "imaps://imap.gmail.com/[Gmail]/All Mail"
 # ================  SMTP  ====================
 set smtp_url = "smtp://emailaddress@smtp.gmail.com:587/"
 set imap_pass = 'yourpassword'
-set ssl_force_tls = yes # Require encrypted connection
+# Require encrypted connection
+set ssl_force_tls = yes
+# Default to TLSv1.3
+set ssl_use_tlsv1_3 = yes
 
 # ================  Composition  ====================
 set editor = `echo \$EDITOR`
-set edit_headers = yes  # See the headers when editing
-set charset = UTF-8     # value of $LANG; also fallback for send_charset
+# See the headers when editing
+set edit_headers = yes
+# value of $LANG; also fallback for send_charset
+set charset = UTF-8
 # Sender, email address, and sign-off line must match
-unset use_domain        # because joe@localhost is just embarrassing
+## because joe@localhost is just embarrassing
+unset use_domain
 set realname = "realname"
 set from = "email address"
 set use_from = yes
@@ -29,6 +35,7 @@ set hostname = "hostname"
 set header_cache = ~/.mutt/cache/headers
 set message_cachedir = ~/.mutt/cache/bodies
 set certificate_file = ~/.mutt/certificates
+set tmpdir = ~/.mutt/tmp
 # Move read messages from your spool mailbox to your $mbox mailbox
 set move = no
 # Reduce polling frequency to a sane level
