@@ -32,3 +32,5 @@
 	packSizeLimit = 256M
 [pull]
 	rebase = false
+[gpg]
+	program = gpg
