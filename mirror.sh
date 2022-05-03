@@ -3,7 +3,7 @@
 git clone https://github.com/llvm/llvm-project.git
 cd llvm-project
 
-git remote rename origin old.origin
+git remote rename origin upstream
 git remote add origin git@github.com:andmeics/llvm-project.git
 
 
@@ -37,15 +37,3 @@ git push $REMOTE HEAD:refs/heads/$BRANCH
 git push -u origin --all
 git push -u origin --tags
 # git push --mirror origin
-
-
-# The third stage fills in the remaining information and makes a complete mirror
-# git clone --bare https://github.com/llvm/llvm-project.git
-git clone --mirror https://github.com/llvm/llvm-project.git
-cd llvm-project.git
-git push --mirror git@github.com:andmeics/llvm-project.git
-
-# The fourth stage is continuously updated, and the warehouse is regularly synchronized. The actions here are performed regularly.
-cd llvm-project.git
-git fetch --all
-git push --mirror git@github.com:andmeics/llvm-project.git
