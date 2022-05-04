@@ -1,10 +1,10 @@
 #!/bin/bash
 # The first stage submits the main branch first
-git clone https://github.com/llvm/llvm-project.git
-cd llvm-project
+git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+cd linux
 
 git remote rename origin upstream
-git remote add origin git@github.com:andmeics/llvm-project.git
+git remote add origin git@github.com:andmeics/linux.git
 
 
 REMOTE=origin
