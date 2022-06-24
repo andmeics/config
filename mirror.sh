@@ -1,10 +1,10 @@
 #!/bin/bash
 # The first stage submits the main branch first
-git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
-cd linux
+git clone git://gcc.gnu.org/git/gcc.git
+cd gcc
 
 git remote rename origin upstream
-git remote add origin git@github.com:andmeics/linux.git
+git remote add origin git@github.com:andmeics/gcc.git
 
 
 REMOTE=origin
@@ -37,3 +37,6 @@ git push $REMOTE HEAD:refs/heads/$BRANCH
 git push -u origin --all
 git push -u origin --tags
 # git push --mirror origin
+git clone --bare git://gcc.gnu.org/git/gcc.git
+cd gcc.git
+git push --mirrror git@github.com:andmeics/gcc.git
