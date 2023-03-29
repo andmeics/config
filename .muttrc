@@ -1,4 +1,3 @@
-# neomuttrc
 # ================  IMAP ====================
 set imap_user = 'email address'
 set imap_pass = 'yourpassword'
