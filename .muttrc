@@ -34,7 +34,7 @@ set hostname = "hostname"
 set header_cache = ~/.mutt/cache/headers
 set message_cachedir = ~/.mutt/cache/bodies
 set certificate_file = ~/.mutt/certificates
-set tmpdir = ~/.mutt/tmp
+#set tmpdir = ~/.mutt/tmp
 # Move read messages from your spool mailbox to your $mbox mailbox
 set move = no
 # Reduce polling frequency to a sane level
