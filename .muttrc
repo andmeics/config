@@ -9,7 +9,11 @@ set mbox = "imaps://imap.gmail.com/[Gmail]/All Mail"
 
 # ================  SMTP  ====================
 set smtp_url = "smtp://emailaddress@smtp.gmail.com:587/"
-set imap_pass = 'yourpassword'
+set imap_authenticators="oauthbearer"
+set imap_oauth_refresh_command="/path/to/script/mutt_oauth2.py ${imap_user}.tokens"
+set smtp_authenticators=${imap_authenticators}
+set smtp_oauth_refresh_command=${imap_oauth_refresh_command}
+# set imap_pass = 'yourpassword'
 # Require encrypted connection
 set ssl_force_tls = yes
 # Default to TLSv1.3
