@@ -1,6 +1,6 @@
 # ================  IMAP ====================
 set imap_user = 'email address'
-set imap_pass = 'yourpassword'
+# set imap_pass = 'yourpassword'
 set spoolfile = imaps://imap.gmail.com/INBOX
 set folder = imaps://imap.gmail.com/
 set record = "imaps://imap.gmail.com/[Gmail]/Sent Mail"
@@ -8,7 +8,7 @@ set postponed = "imaps://imap.gmail.com/[Gmail]/Drafts"
 set mbox = "imaps://imap.gmail.com/[Gmail]/All Mail"
 
 # ================  SMTP  ====================
-set smtp_url = "smtp://emailaddress@smtp.gmail.com:587/"
+set smtp_url = "smtp://${imap_user}@smtp.gmail.com:587/"
 set imap_authenticators="oauthbearer"
 set imap_oauth_refresh_command="~/.mutt/mutt_oauth2.py ~/.mutt/${imap_user}.tokens"
 set smtp_authenticators=${imap_authenticators}
@@ -29,10 +29,10 @@ set charset = UTF-8
 # Because joe@localhost is just embarrassing
 unset use_domain
 set realname = "realname"
-set from = "email address"
+set from = "${imap_user}"
 set use_from = yes
 set user_agent = no
-set envelope_from_address = "email address"
+set envelope_from_address = "${imap_user}"
 set use_envelope_from = yes
 set hostname = "hostname"
 set header_cache = ~/.mutt/cache/headers
