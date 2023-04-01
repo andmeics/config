@@ -16,6 +16,7 @@
 [core]
         abbrev = 12
 	compression = 9
+	editor = vim
 [pretty]
         fixes = Fixes: %h (\"%s\")
 [commit]
