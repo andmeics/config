@@ -39,4 +39,4 @@ git push -u origin --tags
 # git push --mirror origin
 git clone --bare git://gcc.gnu.org/git/gcc.git
 cd gcc.git
-git push --mirrror git@github.com:andmeics/gcc.git
+git push --mirror git@github.com:andmeics/gcc.git
