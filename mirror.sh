@@ -3,13 +3,11 @@
 git clone git://gcc.gnu.org/git/gcc.git
 cd gcc
 
-git remote rename origin upstream
-git remote add origin git@github.com:andmeics/gcc.git
+git remote add github git@github.com:andmeics/gcc.git
 
-
-REMOTE=origin
+REMOTE=github
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
-BATCH_SIZE=10000 #
+BATCH_SIZE=10000
 
 # check if the branch exists on the remote
 if git show-ref --quiet --verify refs/remotes/$REMOTE/$BRANCH; then
@@ -34,9 +32,12 @@ done
 git push $REMOTE HEAD:refs/heads/$BRANCH
 
 # The second stage processes tag information
-git push -u origin --all
-git push -u origin --tags
-# git push --mirror origin
+git push -u github --all
+git push -u github --tags
+
+# git push --mirror github
+cd ..
 git clone --bare git://gcc.gnu.org/git/gcc.git
 cd gcc.git
-git push --mirror git@github.com:andmeics/gcc.git
+git remote add github git@github.com:andmeics/gcc.git
+git push --mirror github
