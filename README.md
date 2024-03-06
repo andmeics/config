@@ -1,2 +1,1 @@
-# shell-example
-shell code example
+# shell and Configuration example
