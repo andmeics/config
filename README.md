@@ -1,1 +1,1 @@
-# shell and Configuration example
+# Script and Configuration example
