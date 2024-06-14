@@ -1,13 +1,13 @@
 #!/bin/bash
 # The first stage submits the main branch first
-git clone git://gcc.gnu.org/git/gcc.git
-cd gcc
+git clone https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux
+cd linux
 
-git remote add github git@github.com:andmeics/gcc.git
+git remote add google ssh://xxx@source.developers.google.com:2022/p/xxx/r/linux
 
-REMOTE=github
+REMOTE=google
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
-BATCH_SIZE=10000
+BATCH_SIZE=100
 
 # check if the branch exists on the remote
 if git show-ref --quiet --verify refs/remotes/$REMOTE/$BRANCH; then
@@ -32,12 +32,12 @@ done
 git push $REMOTE HEAD:refs/heads/$BRANCH
 
 # The second stage processes tag information
-git push -u github --all
-git push -u github --tags
+git push -u google --all
+git push -u google --tags
 
-# git push --mirror github
+# git push --mirror google
 cd ..
-git clone --bare git://gcc.gnu.org/git/gcc.git
-cd gcc.git
-git remote add github git@github.com:andmeics/gcc.git
-git push --mirror github
+git clone --bare https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux
+cd linux.git
+git remote add google ssh://xxx@source.developers.google.com:2022/p/xxx/r/linux
+git push --mirror google
