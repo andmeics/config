@@ -519,8 +519,6 @@ frdic.com
 freebuf.com
 freeziti.com
 fromgeek.com
-futu5.com
-futunn.com
 fydeos.com
 fzzfgjj.com
 g-cores.com
@@ -543,7 +541,6 @@ gitee.io
 godic.net
 golaravel.com
 goofish.com
-googletagmanager.com
 gratisography.com
 growingio.com
 gtimg.com
@@ -897,8 +894,6 @@ nvidia.com
 nyato.com
 obsapp.com
 oekaki.so
-office.net
-office365.com
 okii.com
 omico.me
 onekbit.com
@@ -909,7 +904,6 @@ open-open.com
 open.cd
 oppo.com
 ops.moe
-oracle.com
 oray.com
 oray.net
 orayimg.com
