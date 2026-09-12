@@ -1328,3 +1328,4 @@ mpsapi.amap.com
 metis-er.ele.me
 render.alipay.com
 nebula-api-cn.heytapmobi.com
+tzbank.com
