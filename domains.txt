@@ -444,7 +444,6 @@ docin.com
 docschina.org
 doh.pub
 dopa.com
-douban.*
 douban.com
 douban.fm
 doubanio.com
@@ -675,7 +674,6 @@ jfdaily.com
 jfrft.com
 jhdec.com
 jianguoyun.com
-jianshu.*
 jianshu.com
 jianshu.io
 jianshuapi.com
