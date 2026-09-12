@@ -250,9 +250,6 @@ appclub.in
 appgame.com
 appinn.com
 appinn.net
-apple-cloudkit.com
-apple.co
-apple.com
 appletuan.com
 appstore.com
 aps.org
@@ -341,7 +338,6 @@ cckefu.net
 cckefu3.com
 cctv.com
 cctvpic.com
-cdn-apple.com
 cdn.hockeyapp.net
 cdnbee.com
 cdndm.com
@@ -610,8 +606,6 @@ ibruce.info
 ibucm.com
 icetorrent.org
 iciba.com
-icloud-content.com
-icloud.com
 idqqimg.com
 ieee.org
 iesdouyin.com
