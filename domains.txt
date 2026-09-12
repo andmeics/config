@@ -181,7 +181,6 @@ zhihu.com
 91mjw.com
 99.com
 a9vg.com
-aaplimg.com
 abchina.com
 accuweather.com
 acfun.tv
@@ -189,7 +188,6 @@ acg.rip
 acg.tv
 acggate.net
 acgvideo.com
-acs.org
 aday01.com
 adf.ly
 agora.io
@@ -199,7 +197,6 @@ aicoinstorge.com
 aipai.com
 air-matters.com
 air-matters.io
-airbnb.com
 aito.auto
 aiwebcom.com
 aixifan.com
@@ -233,7 +230,6 @@ aliyunpds.com
 allhistory.com
 alltuu.com
 amap.com
-amd.com
 ancda.com
 animebytes.tv
 anjuke.com
@@ -251,12 +247,8 @@ appgame.com
 appinn.com
 appinn.net
 appletuan.com
-appstore.com
-aps.org
-archlinux.org
 archlinuxcn.org
 areyoucereal.com
-arubanetworks.com
 atomicstryker.net
 augix.me
 autonavi.com
@@ -281,7 +273,6 @@ bankcomm.com
 baomihua.com
 baomitu.com
 baozoumanhua.com
-battle.net
 bbtree.com
 bcebos.com
 bcedns.com
@@ -307,13 +298,10 @@ bilicomic.com
 biligame.com
 biligame.net
 bilivideo.com
-bitbucket.org
 blackyau.cc
-blizzard.com
 blogchina.com
 blogjava.net
 bluedoc.io
-booking.com
 bootcss.com
 bqtalk.com
 broadcasthe.net
@@ -476,10 +464,8 @@ eggjs.org
 ele.me
 elemecdn.com
 elong.com
-elsevier.com
 empornium.me
 enkj.com
-epicgames.com
 epubw.com
 erp321.com
 etao.com
@@ -498,7 +484,6 @@ figmachina.com
 figmacn.com
 fiio.com
 fir.im
-firefox.com
 fj12379.com
 fjdzyz.com
 fjgdwl.com
@@ -527,7 +512,6 @@ gazellegames.net
 gcores.com
 geetest.com
 geilicdn.com
-getfedora.org
 getpricetag.com
 getui.com
 gfan.com
@@ -576,7 +560,6 @@ hongxiu.com
 honor.com
 hostbuf.com
 hostker.com
-hotmail.com
 houxu.app
 huaban.com
 huabanimg.com
@@ -601,13 +584,11 @@ i-meto.com
 iapps.im
 iaweg.com
 iaxure.com
-ibm.com
 ibruce.info
 ibucm.com
 icetorrent.org
 iciba.com
 idqqimg.com
-ieee.org
 iesdouyin.com
 ifanr.com
 ifanr.in
@@ -652,7 +633,6 @@ ithome.com
 itjuzi.com
 ixigua.com
 jandan.net
-java.com
 javaeye.com
 jb51.net
 jcodecraeer.com
@@ -688,7 +668,6 @@ kaiyanapp.com
 kan300.com
 kankan.com
 kanzhun.com
-kaspersky-labs.com
 kcdnvip.com
 ke.com
 keepcdn.com
@@ -730,7 +709,6 @@ kunlunso.com
 kunlunta.com
 kunlunvi.com
 kunlunwe.com
-kyoceraconnect.com
 lackar.com
 lagou.com
 lanhuapp.com
@@ -782,7 +760,6 @@ lwl12.com
 ly.com
 lyjsws.com
 m-team.cc
-macpaw.com
 macrr.com
 macw.com
 macwk.com
@@ -820,7 +797,6 @@ mi-img.com
 mi.com
 mianshiya.com
 miaopai.com
-microbit.org
 midifan.com
 mihoyo.com
 mikanani.me
@@ -847,7 +823,6 @@ moonvy.com
 morethan.tv
 mozilla.org
 mp4ba.cc
-msftconnecttest.com
 mtyun.com
 mu6.me
 mubu.com
@@ -865,7 +840,6 @@ myzaker.com
 mzstatic.com
 naixue.com
 nanyangpt.com
-nature.com
 ncore.cc
 nekonazo.com
 netease.com
@@ -882,9 +856,7 @@ nocode.com
 now.sh
 nowcoder.com
 nowcoder.net
-ntp.org
 nuomi.com
-nvidia.com
 nyato.com
 obsapp.com
 oekaki.so
@@ -907,7 +879,6 @@ ourbits.club
 ourdvs.com
 ourdvsss.com
 oursketch.com
-outlook.com
 pag.art
 paipai.com
 panda.tv
@@ -991,7 +962,6 @@ redacted.ch
 renren.com
 renrenche.com
 renrendoc.com
-researchgate.net
 rework.tools
 rkecloud.com
 rkidc.net
@@ -1001,7 +971,6 @@ ronghub.com
 rr.tv
 rrfmn.com
 rrimg.com
-rsc.org
 ruanmei.com
 ruanyifeng.com
 ruby-china.org
@@ -1042,7 +1011,6 @@ sinaapp.com
 since1989.org
 siweiearth.com
 sketchchina.com
-slack.com
 sm.ms
 smart2pay.com
 smartgslb.com
@@ -1065,7 +1033,6 @@ songshuhui.net
 soso.com
 soufun.com
 sourcegcdn.com
-speedtest.net
 springer.com
 springerlink.com
 springleaf-biomax.com
@@ -1175,7 +1142,6 @@ visualstudio.com
 vite.org
 vjudge.net
 vmall.com
-vmware.com
 voidcn.com
 vostic.net
 vpgame.com
