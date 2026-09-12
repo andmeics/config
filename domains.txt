@@ -1,4 +1,12 @@
+conn-service-cn-05.allawntech.com
+cdn-mum.alibabachengdun.com
+59.82.113.10
+59.82.113.219
+127.0.0.1
+cdn.ynuf.aliapp.org
 59.82.34.148
+parcel-operate-proof-runtime.oss-cn-zhangjiakou.aliyuncs.com
+amdc.m.taobao.com
 ianc-dca.nbcb.com.cn
 mdri.spdb.com.cn
 pv.sohu.com
@@ -13,14 +21,8 @@ ump.szcdn.creditcard.ecitic.com
 monitor.bankcomm.cn
 ebank.creditcard.ecitic.com
 apisnd.heytapmobi.com
-59.82.113.10
 heic.alicdn.com
-59.82.113.219
-cdn-mum.alibabachengdun.com
-127.0.0.1
-amdc.m.taobao.com
 59.82.14.161
-cdn.ynuf.aliapp.org
 familyguard-api-cn.allawntech.com
 d.url.cn
 l.lswld.com
@@ -62,7 +64,6 @@ antifraud.cup.com.cn
 device.cup.com.cn
 analytics.95516.com
 gdloc.qchannel03.cn
-conn-service-cn-05.allawntech.com
 conn-service-cn-04.allawntech.com
 mdc.wallet.pbcdci.cn
 h.trace.qq.com
@@ -1325,5 +1326,5 @@ mdn.alipayobjects.com
 qappcenterv6.3g.qq.com
 mpsapi.amap.com
 metis-er.ele.me
-ele.me
 render.alipay.com
+nebula-api-cn.heytapmobi.com
